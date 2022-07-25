@@ -16,7 +16,7 @@
 VERSION := 0.10.0-SNAPSHOT
 SNAPSHOT_VERSION := 0.10.0-SNAPSHOT
 OPERATOR_VERSION := $(subst -SNAPSHOT,,$(VERSION))
-DEFAULT_IMAGE := docker.io/citrusframework/yaks
+DEFAULT_IMAGE := docker-dev.art.intern/bamf/cnc/cnc-yaks-base
 IMAGE_NAME ?= $(DEFAULT_IMAGE)
 METADATA_IMAGE_NAME := $(IMAGE_NAME)-metadata
 RELEASE_GIT_REMOTE := upstream

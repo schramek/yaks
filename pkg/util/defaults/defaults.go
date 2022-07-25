@@ -29,5 +29,5 @@ const (
 	LocalRepository = "/tmp/artifacts/m2"
 
 	// ImageName --
-	ImageName = "docker.io/citrusframework/yaks"
+	ImageName = "docker-dev.art.intern/bamf/cnc/cnc-yaks-base"
 )
